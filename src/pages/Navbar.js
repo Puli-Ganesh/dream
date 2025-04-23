@@ -11,12 +11,11 @@ function Navbar() {
         <img src="/Images/logo.jpg" alt="logo" className="logo" />
         
         <div className="nav-links">
-          <a href="#home" className="nav-btn"><FaHome /> Home</a>
-          <a href="#about" className="nav-btn"><FaInfoCircle /> About</a>
-          <a href="#services" className="nav-btn"><FaServicestack /> Services</a>
-          <a href="#pricing" className="nav-btn"><FaTags /> Pricing</a>
+          <a href="/" className="nav-btn"><FaHome /> Home</a>
+          <a href="/services" className="nav-btn"><FaServicestack /> Services</a>
           <a href="#design" className="nav-btn"><FaCube /> 3D Design</a>
-          <a href="#contact" className="nav-btn"><FaEnvelope /> Contact Us</a>
+          <a href="/about" className="nav-btn"><FaInfoCircle /> About</a>
+          <a href="/contact" className="nav-btn"><FaEnvelope /> Contact Us</a>
         </div>
 
         <div className="hamburger" onClick={() => setShowMobileMenu(!showMobileMenu)}>
@@ -26,12 +25,11 @@ function Navbar() {
 
       {showMobileMenu && (
         <div className="mobile-menu">
-          <a href="#home" className="nav-btn" onClick={() => setShowMobileMenu(false)}><FaHome /> Home</a>
-          <a href="#about" className="nav-btn" onClick={() => setShowMobileMenu(false)}><FaInfoCircle /> About</a>
-          <a href="#services" className="nav-btn" onClick={() => setShowMobileMenu(false)}><FaServicestack /> Services</a>
-          <a href="#pricing" className="nav-btn" onClick={() => setShowMobileMenu(false)}><FaTags /> Pricing</a>
+          <a href="/" className="nav-btn" onClick={() => setShowMobileMenu(false)}><FaHome /> Home</a>
+          <a href="/about" className="nav-btn" onClick={() => setShowMobileMenu(false)}><FaInfoCircle /> About</a>
+          <a href="/services" className="nav-btn" onClick={() => setShowMobileMenu(false)}><FaServicestack /> Services</a>
           <a href="#design" className="nav-btn" onClick={() => setShowMobileMenu(false)}><FaCube /> 3D Design</a>
-          <a href="#contact" className="nav-btn" onClick={() => setShowMobileMenu(false)}><FaEnvelope /> Contact Us</a>
+          <a href="/contact" className="nav-btn" onClick={() => setShowMobileMenu(false)}><FaEnvelope /> Contact Us</a>
         </div>
       )}
     </>

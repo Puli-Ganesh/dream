@@ -15,8 +15,8 @@ const Footer = () => {
 
         <div className="footer-contact">
           <h3>Contact</h3>
-          <p><FaPhoneAlt /> +91-9876543210</p>
-          <p><FaEnvelope /> support@dreamhome.com</p>
+          <p><FaPhoneAlt /> +91-8179197108</p>
+          <p><FaEnvelope /> ganeshyadav.puli9010.com</p>
         </div>
 
         <div className="footer-social">

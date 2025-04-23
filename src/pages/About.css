@@ -1,0 +1,238 @@
+.about-wrapper {
+    background: linear-gradient(to bottom right, #181818, #252525);
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .about-hero {
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+  }
+  
+  .about-title {
+    font-size: 3.5rem;
+    background: linear-gradient(90deg, #f26624, #e8578c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+  }
+  
+  .about-subtext {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about-feature-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 80px 0;
+    flex-wrap: wrap;
+  }
+  
+  .feature-content {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 40px rgba(255, 255, 255, 0.04);
+  }
+  
+  .feature-content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, #ff8c00, #ff4d4d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .feature-content p {
+    font-size: 1rem;
+    color: #eee;
+    margin-bottom: 20px;
+  }
+  
+  .feature-btn {
+    display: inline-block;
+    background: #fff;
+    color: #111;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .feature-image {
+    flex: 1;
+  }
+  
+  .feature-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.07);
+  }
+  
+  .about-vision-section {
+    margin: 100px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .vision-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #f26624, #b12156);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .vision-grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .vision-box {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    padding: 25px;
+    width: 280px;
+    text-align: left;
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.04);
+  }
+  
+  .vision-box h3 {
+    font-size: 1.3rem;
+    color: #f26624;
+    margin-bottom: 10px;
+  }
+  
+  .vision-box p {
+    font-size: 0.95rem;
+    color: #ccc;
+  }
+  
+  .about-highlight-banner {
+    background: linear-gradient(to right, #f26624, #ff4d4d);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 100px 0;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.05);
+  }
+  
+  .about-highlight-banner h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-highlight-banner p {
+    font-size: 1.1rem;
+  }
+  
+  .about-split-layout {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+  
+  .split-image {
+    flex: 1;
+  }
+  
+  .split-image img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 12px 30px rgba(255, 255, 255, 0.07);
+  }
+  
+  .split-content {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 25px;
+    color: white;
+    backdrop-filter: blur(10px);
+  }
+  
+  .split-content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, #f26624, #e8578c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .split-content p {
+    font-size: 1rem;
+    color: #eee;
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .about-btn.split {
+    background: #fff;
+    color: #111;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+  }
+  
+  .about-btn.split.alt {
+    background: transparent;
+    color: #fff;
+    border: 2px solid white;
+  }
+  
+  .about-btn.split:hover {
+    transform: scale(1.05);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about-hero .about-title {
+      font-size: 2.5rem;
+    }
+  
+    .about-section,
+    .about-feature-block,
+    .about-split-layout {
+      flex-direction: column;
+    }
+  
+    .feature-image,
+    .split-image {
+      order: -1;
+    }
+  
+    .vision-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-highlight-banner h2 {
+      font-size: 1.8rem;
+    }
+  
+    .about-highlight-banner p {
+      font-size: 1rem;
+    }
+  }
+  
