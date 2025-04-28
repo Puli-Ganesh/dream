@@ -53,6 +53,13 @@
     gap: 20px;
     z-index: 10;
   }
+
+  .active {
+    color: #f26624;
+    border-color: #f26624;
+    background-color: rgba(242, 102, 36, 0.1);
+  }
+  
   
   @media (max-width: 768px) {
     .nav-links {
